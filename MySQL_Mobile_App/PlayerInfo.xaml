@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MySQL_Mobile_App.PlayerInfo"
+             Title="PlayerInfo"
+             BackgroundColor="PeachPuff"
+             >
+    <VerticalStackLayout
+        Spacing="55"
+        Padding="25, 0"
+        VerticalOptions="Start"
+        HorizontalOptions="Center"
+        >
+        <Label
+                x:Name="infoGiven"
+                Text="Insert Player Input"
+                FontSize="30"
+                HorizontalTextAlignment="Center"
+                WidthRequest="500"
+                FontFamily="times new roman"
+                />
+            <Entry x:Name="Player_ID"
+                   Placeholder="Player ID"
+                   PlaceholderColor="Grey"
+                   WidthRequest="300"
+                   HorizontalOptions="Start"
+                   />
+            <Entry x:Name="First_Name"
+                   Placeholder="First Name"
+
+                   PlaceholderColor="Grey"
+                   WidthRequest="300"
+                   HorizontalOptions="Start"
+                   />
+            <Entry x:Name="Last_Name"
+                   Placeholder="Last Name"
+                   PlaceholderColor="Grey"
+                   WidthRequest="300"
+                   HorizontalOptions="Start"
+                   />
+            <Entry x:Name="Phone_Number"
+                   Placeholder="Phone Number"
+                   PlaceholderColor="Grey"
+                   WidthRequest="300"
+                   HorizontalOptions="Start"
+                   />
+            <Entry x:Name="Discord_ID"
+                   Placeholder="Discord ID"
+                   PlaceholderColor="Grey"
+                   WidthRequest="300"
+                   HorizontalOptions="Start"
+                   />
+        <Entry x:Name="Esport_Game"
+                   Placeholder="Esport Game"
+                   PlaceholderColor="Grey"
+                   WidthRequest="300"
+                   HorizontalOptions="Start"
+                   />
+
+        <Button 
+            Text="Next" 
+            x:Name="BtnPrevious" 
+            Clicked="Button"
+            BackgroundColor="AntiqueWhite"
+            BorderColor="Black"
+            TextColor="Black"
+            VerticalOptions="End"
+            HeightRequest="45"
+            WidthRequest="100"
+            FontSize="20"
+            FontFamily="times new roman"
+            />
+    </VerticalStackLayout>
+</ContentPage>

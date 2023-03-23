@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MySQL_Mobile_App.MainPage"
+             Title="Player Input Page" 
+             BackgroundColor="PeachPuff"
+             >
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="45"
+            Padding="25,0"
+            VerticalOptions="Center">
+            <Label
+                x:Name="infoGiven"
+                Text="Insert Player Info"
+                FontSize="30"
+                HorizontalTextAlignment="Center"
+                WidthRequest="500"
+                FontFamily="times new roman"
+                />
+ 
+            
+            
+            <Button HorizontalOptions="Center" 
+                    x:Name="infoText"
+                    VerticalOptions="Center"
+                    Text="Return To Previous Page"  
+                    Clicked="Player_clicked"
+                    BackgroundColor="AntiqueWhite"
+                    BorderColor="Black"
+                    TextColor="Black"
+                    FontFamily="times new roman"
+                    />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
